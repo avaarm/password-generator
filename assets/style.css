@@ -28,6 +28,8 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+  animation: bounceIn;
+  animation-duration: 2s;
 }
 
 .card {
@@ -74,7 +76,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(8, 142, 175);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -86,6 +88,9 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 button[disabled] {
