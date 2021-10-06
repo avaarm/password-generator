@@ -5,22 +5,16 @@ var answerNumber;
 var answerCharacter;
 var answerUppercase;
 var answerLowercase;
-
-
 // A list of values the program has to go through in order to generate a random password 
 // Numeric characters
 number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
 // Special characters
 character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
-
 // Upper and lower case letters
 lowerLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 upperLetters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-
 // a variable that will be used to add the various selections/ criteria chosen by user
 var choices;
-
 // Start function to generate password
 function generatePassword() {
     // Asks for user input
@@ -113,7 +107,6 @@ function generatePassword() {
     var newPassword = password.join("");
     UserInput(newPassword);
     return newPassword;
-
   }
   // This puts the password value into the textbox
   // Changed function input to use textcontent
@@ -121,8 +114,6 @@ function generatePassword() {
       document.getElementById("password").textContent = newPassword;
   
   }
-  
-
 //////////////////////////////////////////////////////////////
 // DO NOT TOUCH THE CODE BELOW
 //////////////////////////////////////////////////////////////
@@ -136,7 +127,6 @@ function writePassword() {
 
   passwordText.value = password;
 }
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
