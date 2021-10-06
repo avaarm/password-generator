@@ -4,7 +4,7 @@
 
 ## Description 
 
-My first front-end/ client-side javascript application. As the only programming language native to web browsers, JavaScript is used all over the web and I was able to see first hand at how versatile it can through this application. 
+My first front-end/ client-side javascript application. As the only programming language native to web browsers, JavaScript is used all over the web and I was able to see first hand at how versatile it can be through this application. 
 
 I modified starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code that I wrote. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
