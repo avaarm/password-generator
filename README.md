@@ -13,8 +13,6 @@ I modified starter code to create an application that enables employees to gener
 * [Description](#Description)
 * [Technologies](#technologies)
 * [Application](#Application)
-* [Installation](#installation)
-* [Test](#test)
 * [Acknowledgements](#acknowledgements)
 * [Questions](#questions)
 
